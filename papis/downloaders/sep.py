@@ -62,15 +62,14 @@ class SEPDownloader(Downloader):
         soup = BeautifulSoup(content)
         tag = soup.find("pre")
         if tag:
-            return tag.string
+            return (tag.string
+                .replace("\\t", "\t").replace("\\n", "\n")
+                .replace("\\\\url", ""))
 
     def get_bibtex_data(self) -> str | None:
         body = self._get_bibtex_page_body()
         if body:
-            data = (self._extract_bibtex_data(body)
-                    .replace("\\t", "").replace("\\n", "")
-                    .replace("\\url", ""))
-            return data
+            return self._extract_bibtex_data(body)
 
 
     def get_document_url(self) -> str | None:
