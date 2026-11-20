@@ -67,7 +67,11 @@ class SEPDownloader(Downloader):
     def get_bibtex_data(self) -> str | None:
         body = self._get_bibtex_page_body()
         if body:
-            return self._extract_bibtex_data(body)
+            data = (self._extract_bibtex_data(body)
+                    .replace("\\t", "").replace("\\n", "")
+                    .replace("\\url", ""))
+            return data
+
 
     def get_document_url(self) -> str | None:
         return self.DOCUMENT_URL.format(self._name)
