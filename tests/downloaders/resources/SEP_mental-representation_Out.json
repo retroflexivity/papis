@@ -1,0 +1,29 @@
+{
+  "title": "Mental Representation",
+  "publication_date": "2000/03/30",
+  "author_list": [
+    {
+      "given": "David",
+      "family": "Pitt"
+    }
+  ],
+  "author": "Pitt, David",
+  "editor_list": [
+    {
+      "given": "Edward N.",
+      "family": "Zalta"
+    },
+    {
+      "given": "Uri",
+      "family": "Nodelman"
+    }
+  ],
+  "booktitle": "The Stanford Encyclopedia of Philosophy",
+  "howpublished": "https://plato.stanford.edu/archives/fall2022/entries/mental-representation/",
+  "year": "2022",
+  "edition": "Fall 2022",
+  "publisher": "Metaphysics Research Lab, Stanford University",
+  "editor": "Zalta, Edward N. and Nodelman, Uri",
+  "ref": "sep-mental-representation",
+  "type": "incollection"
+}

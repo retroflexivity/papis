@@ -170,9 +170,7 @@ class Downloader(Importer):
         # try with bibtex
         try:
             self.download_bibtex()
-        except NotImplementedError:
-            pass
-        else:
+        except Exception:
             bib_rawdata = self.get_bibtex_data()
             if bib_rawdata:
                 from papis.bibtex import bibtex_to_dict

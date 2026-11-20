@@ -1,0 +1,29 @@
+{
+  "title": "Philosophy of History and Historiography",
+  "publication_date": "2026/11/18",
+  "author_list": [
+    {
+      "given": "Jouni-Matti",
+      "family": "Kuukkanen"
+    }
+  ],
+  "author": "Kuukkanen, Jouni-Matti",
+  "editor_list": [
+    {
+      "given": "Edward N.",
+      "family": "Zalta"
+    },
+    {
+      "given": "Uri",
+      "family": "Nodelman"
+    }
+  ],
+  "booktitle": "The Stanford Encyclopedia of Philosophy",
+  "howpublished": "https://plato.stanford.edu/archives/win2026/entries/history/",
+  "year": "2026",
+  "edition": "Winter 2026",
+  "publisher": "Metaphysics Research Lab, Stanford University",
+  "editor": "Zalta, Edward N. and Nodelman, Uri",
+  "ref": "sep-history",
+  "type": "incollection"
+}
